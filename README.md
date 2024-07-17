@@ -1,2 +1,2 @@
 # TiredEagle
-A Practice in Leaning Domain-Driven Design journey
+A Practice in Learning Domain-Driven Design journey
