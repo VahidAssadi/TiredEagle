@@ -9,7 +9,7 @@ namespace TiredEagle.Domain.SharedKernel
         }
         protected override IEnumerable<object> GetEqualityComponents()
         {
-            yield return new object[] { Currency, Cost };
+            yield return new object[] { Cost };
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using TiredEagle.Domain.Abstraction;
 
-namespace TiredEagle.Domain.ChannelOwner.Entities
+namespace TiredEagle.Domain.ChannelOwner.ValueObjects
 {
     public class TimeSlot : ValueObject
     {
