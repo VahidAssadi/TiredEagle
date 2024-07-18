@@ -17,6 +17,11 @@ namespace TiredEagle.Domain.CampignOwner.ValueObjects
             EndTime = endTime;
         }
 
+        public bool OverlapsWith(TimeRange other)
+        {
+            return StartTime < other.EndTime && EndTime > other.StartTime; // detail of Overlaps checking is not necessarily complete
+        }
+
         public static TimeRange NoLimit()
         {
             return new TimeRange(null, null, null, null);

@@ -1,29 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TiredEagle.Domain.CampaignManager;
+﻿using TiredEagle.Domain.CampaignManager;
 
-namespace TiredEagle.Application.Features.Commands
+namespace TiredEagle.Application.Features.Commands.DistributionSystem
 {
-    public class DisplayAdCommandHandler
+    public class ClickAdCommandHandler
     {
         private readonly IAdDistributionSystem _adDistributionSystem;
 
-        public DisplayAdCommandHandler(AdDistributionSystem adDistributionSystem)
+        public ClickAdCommandHandler(AdDistributionSystem adDistributionSystem)
         {
             _adDistributionSystem = adDistributionSystem;
         }
 
-        public void Handle(DisplayAdCommand command)
+        public void Handle(ClickAdCommand command)
         {
             var campaign = _adDistributionSystem.Campaigns.FirstOrDefault(c => c.Id == command.CampaignId);
             var channelOwner = _adDistributionSystem.ChannelOwners.FirstOrDefault(o => o.Id == command.ChannelOwnerId);
 
             if (campaign != null && channelOwner != null)
             {
-                _adDistributionSystem.AdByView(campaign, channelOwner);
+                _adDistributionSystem.AdByClick(campaign, channelOwner);
             }
             else
             {

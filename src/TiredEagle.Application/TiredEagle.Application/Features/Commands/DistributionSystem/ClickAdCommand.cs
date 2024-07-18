@@ -1,11 +1,11 @@
-﻿namespace TiredEagle.Application.Features.Commands
+﻿namespace TiredEagle.Application.Features.Commands.DistributionSystem
 {
-    public class DisplayAdCommand
+    public class ClickAdCommand
     {
         public Guid CampaignId { get; set; }
         public Guid ChannelOwnerId { get; set; }
 
-        public DisplayAdCommand(Guid campaignId, Guid channelOwnerId)
+        public ClickAdCommand(Guid campaignId, Guid channelOwnerId)
         {
             CampaignId = campaignId;
             ChannelOwnerId = channelOwnerId;

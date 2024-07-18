@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TelegramCampign\Contracts\Services\" />
-    <Folder Include="TelegramCampign\Contracts\Repositories\" />
-    <Folder Include="TelegramCampign\DomainEvents\" />
-    <Folder Include="TelegramCampign\Exceptions\" />
-    <Folder Include="TelegramCampign\Specifications\" />
+    <Folder Include="BusinessOwner\Contracts\Services\" />
+    <Folder Include="BusinessOwner\DomainEvents\" />
+    <Folder Include="BusinessOwner\Exceptions\" />
     <Folder Include="ChannelOwner\Contracts\Services\" />
     <Folder Include="ChannelOwner\DomainEvents\" />
     <Folder Include="ChannelOwner\Exceptions\" />

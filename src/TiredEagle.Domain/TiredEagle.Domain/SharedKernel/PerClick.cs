@@ -2,7 +2,7 @@
 {
     public class PerClick : CostStrategy
     {
-        public PerClick(decimal cost)
+        public PerClick(double cost)
         {
             Cost = cost;
         }

@@ -4,7 +4,7 @@ namespace TiredEagle.Domain.SharedKernel
 {
     public abstract class CostStrategy : ValueObject
     {
-        public virtual decimal Cost { get; set; }
+        public virtual double Cost { get; set; }
 
     }
 }
