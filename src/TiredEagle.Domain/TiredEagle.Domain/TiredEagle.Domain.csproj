@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TelegramCampign\Contracts\Services\" />
+    <Folder Include="TelegramCampign\Contracts\Repositories\" />
+    <Folder Include="TelegramCampign\DomainEvents\" />
+    <Folder Include="TelegramCampign\Exceptions\" />
+    <Folder Include="TelegramCampign\Specifications\" />
+    <Folder Include="ChannelOwner\Contracts\Services\" />
+    <Folder Include="ChannelOwner\DomainEvents\" />
+    <Folder Include="ChannelOwner\Exceptions\" />
+  </ItemGroup>
+
+</Project>
