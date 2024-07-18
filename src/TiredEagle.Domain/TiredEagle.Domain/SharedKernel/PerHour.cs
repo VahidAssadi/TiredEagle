@@ -1,7 +1,7 @@
 ﻿
 namespace TiredEagle.Domain.SharedKernel
 {
-    public class CostPerHour : CostStrategy
+    public class PerHour : CostStrategy
     {
         public double GetCost()
         {
