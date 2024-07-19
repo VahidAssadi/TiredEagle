@@ -1,8 +1,8 @@
 ﻿using TiredEagle.Domain.Abstraction;
 
-namespace TiredEagle.Domain.CampaignManager.Entities
+namespace TiredEagle.Domain.CampaignManagement.Entities
 {
-    public class AdsDistribution: Entity<Guid>, IAggregateRoot
+    public class AdsDistribution : Entity<Guid>, IAggregateRoot
     {
         public Guid CampignId { get; set; }
         public Guid TelegramChannelId { get; set; }

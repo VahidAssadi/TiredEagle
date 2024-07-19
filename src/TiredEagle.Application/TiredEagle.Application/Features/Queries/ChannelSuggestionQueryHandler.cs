@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TiredEagle.Application.Features.Commands;
-using TiredEagle.Domain.CampaignManager;
+using TiredEagle.Domain.CampaignManagement;
 using TiredEagle.Domain.CampignOwner.Entities;
 using TiredEagle.Domain.CampignOwner.ValueObjects;
 

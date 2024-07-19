@@ -1,10 +1,10 @@
-﻿using TiredEagle.Domain.CampignOwner.Entities;
+﻿using TiredEagle.Domain.BusinessOwner.Entities;
 using TiredEagle.Domain.ChannelOwner.Entities;
 using TiredEagle.Domain.SharedKernel;
 
-namespace TiredEagle.Domain.CampaignManager
+namespace TiredEagle.Domain.CampaignManagement
 {
-    public class AdDistributionSystem: IAdDistributionSystem
+    public class AdDistributionSystem : IAdDistributionSystem
     {
         private List<TelegramChannelOwner> channelOwners; //must be retrive from repository
 

@@ -1,7 +1,7 @@
-﻿using TiredEagle.Domain.CampignOwner.Entities;
+﻿using TiredEagle.Domain.BusinessOwner.Entities;
 using TiredEagle.Domain.ChannelOwner.Entities;
 
-namespace TiredEagle.Domain.CampaignManager
+namespace TiredEagle.Domain.CampaignManagement
 {
     public interface IAdDistributionSystem
     {

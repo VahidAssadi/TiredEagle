@@ -1,4 +1,4 @@
-﻿using TiredEagle.Domain.CampignOwner.ValueObjects;
+﻿using TiredEagle.Domain.BusinessOwner.ValueObjects;
 using TiredEagle.Domain.SharedKernel;
 
 namespace TiredEagle.Application.Features.Commands.BusinessOwner

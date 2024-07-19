@@ -1,6 +1,6 @@
 ﻿using TiredEagle.Domain.Abstraction;
 
-namespace TiredEagle.Domain.CampignOwner.ValueObjects
+namespace TiredEagle.Domain.BusinessOwner.ValueObjects
 {
     public class Budget : ValueObject
     {

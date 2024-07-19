@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TiredEagle.Domain.CampignOwner.Entities;
+using TiredEagle.Domain.BusinessOwner.Entities;
 
-namespace TiredEagle.Domain.TelegramCampign.Specifications
+namespace TiredEagle.Domain.BusinessOwner.Specifications
 {
     internal class ActiveCampaignSpec
     {

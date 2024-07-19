@@ -1,5 +1,5 @@
 ﻿using TiredEagle.Domain.Abstraction;
-using TiredEagle.Domain.CampignOwner.Entities;
+using TiredEagle.Domain.BusinessOwner.Entities;
 using TiredEagle.Domain.ChannelOwner.ValueObjects;
 using TiredEagle.Domain.SharedKernel;
 

@@ -1,4 +1,4 @@
-﻿using TiredEagle.Domain.CampaignManager;
+﻿using TiredEagle.Domain.CampaignManagement;
 
 namespace TiredEagle.Application.Features.Commands.DistributionSystem
 {

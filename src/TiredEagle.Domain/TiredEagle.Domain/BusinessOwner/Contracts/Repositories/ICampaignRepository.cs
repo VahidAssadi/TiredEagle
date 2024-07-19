@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TiredEagle.Domain.TelegramCampign.Contracts.Repositories
+namespace TiredEagle.Domain.BusinessOwner.Contracts.Repositories
 {
     internal class ICampaignerRepository
     {

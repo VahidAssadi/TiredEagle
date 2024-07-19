@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TiredEagle.Domain.CampaignManager;
+using TiredEagle.Domain.CampaignManagement;
 
 namespace TiredEagle.Application.Features.Commands.DistributionSystem
 {

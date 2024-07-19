@@ -1,6 +1,6 @@
 ﻿using TiredEagle.Domain.Abstraction;
 
-namespace TiredEagle.Domain.CampignOwner.Entities
+namespace TiredEagle.Domain.BusinessOwner.Entities
 {
     public class Campaigner : Entity<Guid>, IAggregateRoot
     {

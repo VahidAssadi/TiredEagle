@@ -1,8 +1,8 @@
 ﻿using TiredEagle.Domain.Abstraction;
-using TiredEagle.Domain.CampignOwner.ValueObjects;
+using TiredEagle.Domain.BusinessOwner.ValueObjects;
 using TiredEagle.Domain.SharedKernel;
 
-namespace TiredEagle.Domain.CampignOwner.Entities
+namespace TiredEagle.Domain.BusinessOwner.Entities
 {
     public class Campaign : Entity<Guid>
     {
@@ -20,7 +20,7 @@ namespace TiredEagle.Domain.CampignOwner.Entities
         public IEnumerable<TopicCategory> Categories { get; private set; }
         public Budget MaximumBudget { get; private set; } // value object
         public Budget RemainingBudget { get; private set; } // value object
-        public int CountOfEngagement { get; private set; } 
+        public int CountOfEngagement { get; private set; }
         public CostStrategy CostStrategy { get; private set; }
         public AdsContent Content { get; private set; }
         public TimeRange EffectiveTimeRange { get; private set; } // has rule
