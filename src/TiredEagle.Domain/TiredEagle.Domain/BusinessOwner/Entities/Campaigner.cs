@@ -9,20 +9,8 @@ namespace TiredEagle.Domain.CampignOwner.Entities
         public IReadOnlyList<Campaign> ActiveCampigns => _activeCampigns.AsReadOnly();
         private List<Campaign> _activeCampigns { get; set; }
 
-        //public bool CheckCampaignOverlap(Campaign campaign)
-        //{
-        //    if (campaign == null) throw new ArgumentNullException(nameof(campaign));
-
-        //    return _activeCampigns.Any(p => p.EffectiveTimeRange.StartTime < campaign.EffectiveTimeRange.EndTime) && _activeCampigns.Any(p => p.EffectiveTimeRange.EndTime > campaign.EffectiveTimeRange.StartTime);
-
-        //}
         public void AddNewCampaign(Campaign campign)
         {
-            //if (CheckCampaignOverlap(campign))
-            //{
-            //    Console.WriteLine("Warning");
-            //}
-
             _activeCampigns.Add(campign);
         }
 

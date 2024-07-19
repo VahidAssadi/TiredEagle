@@ -13,9 +13,6 @@ namespace TiredEagle.Domain.CampaignManager.Entities
     {
         Requested,
         Accepted, // ByChannelOwner
-        //PaymentSucceeded,
-        //PaymentFailed,
-        //ChargedBudget,
         Activated,
         Rejected, // ByChannelOwner
     }

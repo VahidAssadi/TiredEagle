@@ -3,7 +3,7 @@ namespace TiredEagle.Domain.SharedKernel
 {
     public class PerView : CostStrategy
     {
-        public PerView(decimal cost)
+        public PerView(double cost)
         {
             Cost = cost;
         }

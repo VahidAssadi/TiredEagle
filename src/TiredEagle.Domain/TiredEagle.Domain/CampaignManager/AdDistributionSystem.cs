@@ -33,7 +33,7 @@ namespace TiredEagle.Domain.CampaignManager
                 throw new InvalidOperationException("Insufficient campaign budget.");
             }
 
-            var cost = new PerView(10.0m);
+            var cost = new PerView(10.0);
             campaign.DecreaseBudget(cost);
             channelOwner.IncreaseRevenue(cost);
 
@@ -47,7 +47,7 @@ namespace TiredEagle.Domain.CampaignManager
                 throw new InvalidOperationException("Insufficient campaign budget.");
             }
 
-            var cost = new PerClick(100.0m);
+            var cost = new PerClick(100.0);
             campaign.DecreaseBudget(cost);
             channel.IncreaseRevenue(cost);
 
